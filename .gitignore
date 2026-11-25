@@ -1,0 +1,40 @@
+# Python: кеш і скомпільовані файли
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Віртуальні середовища
+.venv/
+venv/
+env/
+
+# Збирання та встановлення пакетів
+build/
+dist/
+*.egg-info/
+
+# Кеш інструментів
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Середовища розробки
+.vscode/
+.idea/
+.claude/
+
+# Локальні налаштування та секрети
+.env
+.env.*
+
+# Операційна система
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Тимчасові файли
+*.log
+*.tmp
+*.bak
+~$*
